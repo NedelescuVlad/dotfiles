@@ -31,8 +31,12 @@ floating_modifier $mod
 
 # start the composite manager
 exec compton
+
 # set the wallpaper
-exec feh --bg-scale ~/Pictures/Wallpapers/arthas_1.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/arthas_1.jpg
+
+# start dunst notification manager
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal

@@ -27,6 +27,9 @@ filetype plugin indent on    " required
 set relativenumber
 syntax on
 colorscheme wombat
+
+map <F3> :NERDTreeToggle<CR>
+set mouse=a
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "

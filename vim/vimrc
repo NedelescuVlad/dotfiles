@@ -30,6 +30,8 @@ colorscheme wombat
 
 map <F3> :NERDTreeToggle<CR>
 set mouse=a
+
+let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/.ycm_extra_conf.py"
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "

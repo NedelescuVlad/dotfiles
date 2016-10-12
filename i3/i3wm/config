@@ -41,6 +41,9 @@ exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# start a terminal in current wd
+bindsym $mod+b exec ~/bin/i3-shell.sh
+
 # kill focused window
 bindsym $mod+Shift+q kill
 

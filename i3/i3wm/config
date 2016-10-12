@@ -33,7 +33,7 @@ floating_modifier $mod
 exec compton
 
 # set the wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/arthas_1.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/dank.jpg
 
 # start dunst notification manager
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc

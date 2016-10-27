@@ -33,7 +33,7 @@ floating_modifier $mod
 exec compton
 
 # set the wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/dank.jpg
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/fight_club.jpe
 
 # start dunst notification manager
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
@@ -41,8 +41,8 @@ exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-# start a terminal in current wd
-bindsym $mod+b exec ~/bin/i3-shell.sh
+# start a terminal in cwd
+bindsym $mod+Shift+Return exec urxvt -cd "'xcwd'"
 
 # kill focused window
 bindsym $mod+Shift+q kill

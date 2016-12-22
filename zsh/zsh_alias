@@ -1,5 +1,1 @@
-alias wifi="sudo wifi-menu"
-alias alsa="alsamixer"
-alias zshrc="vim ~/.zshrc"
-alias vimrc="vim ~/.vimrc"
-alias confi3="vim ~/.config/i3/config"
+/home/vlad/.zsh_alias

@@ -1,2 +1,1 @@
-xrdb -load ~/.Xresources
-exec i3
+/home/vlad/.xinitrc

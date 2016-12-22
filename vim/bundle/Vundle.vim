@@ -1,1 +1,0 @@
-/home/vlad/.vim/bundle/Vundle.vim

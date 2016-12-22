@@ -32,11 +32,9 @@ floating_modifier $mod
 # start the composite manager
 exec --no-startup-id compton
 
-# Set the initial wallpaper
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/tyrael.jpg
-
 # Start the wallpaper changing daemon
 exec --no-startup-id bgchd -dir ~/Pictures/Wallpapers -bcknd feh
+exec --no-startup-id bgctl config -intv 60m
 
 # start dunst notification manager
 exec --no-startup-id dunst -config ~/.config/dunst/config

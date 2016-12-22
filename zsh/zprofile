@@ -1,3 +1,4 @@
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-export PATH="$PATH:$HOME/.rvm/bin:usr/local/heroku/bin" # Add RVM and heroku to path
 
+export PATH="$PATH:$HOME/.rvm/bin:usr/local/heroku/bin" # Add RVM and heroku to path
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket" # Add ssh-agent socket path

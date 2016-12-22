@@ -1,8 +1,9 @@
-alias wifi="sudo wifi-menu"
+alias wifi="connmanctl"
 alias alsa="alsamixer"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias confi3="vim ~/.config/i3/config"
+alias fonts="ls /usr/share/fonts/misc | grep Powerline"
 
 function mkcdir() {
 	mkdir -p "$1" && cd "$1"

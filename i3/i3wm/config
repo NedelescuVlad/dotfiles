@@ -32,7 +32,7 @@ floating_modifier $mod
 # start the composite manager
 exec --no-startup-id compton
 
-# Start the wallpaper changing daemon
+# set the wallpaper change interval
 exec --no-startup-id bgchd -dir ~/Pictures/Wallpapers -bcknd feh
 exec bgctl config -intv 60m
 

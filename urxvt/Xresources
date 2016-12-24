@@ -39,7 +39,7 @@ URxvt*color14: #8ec07c
 URxvt*color7:  #a89984
 URxvt*color15: #ebdbb2
 
-URxvt*font: xft:DejaVu Sans Mono for Powerline-10:pixelsize=14
+URxvt*font: xft:Ubuntu Mono derivative Powerline:pixelsize=18, xft:DejaVu Sans Mono for Powerline-10:pixelsize=14
 
 URxvt.borderColor:    [95]#282828  
 

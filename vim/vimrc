@@ -21,6 +21,8 @@ Plugin 'tpope/vim-repeat'
 
 Plugin 'vim-ruby/vim-ruby'
 
+Plugin 'tpope/vim-rails'
+
 Plugin 'flazz/vim-colorschemes'
 
 Plugin 'Townk/vim-autoclose'

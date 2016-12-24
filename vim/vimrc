@@ -36,7 +36,7 @@ filetype plugin on
 
 set relativenumber
 syntax on
-colorscheme wombat
+colorscheme blazer
 
 map <F3> :NERDTreeToggle<CR>
 set mouse=a

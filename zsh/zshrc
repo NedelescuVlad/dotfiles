@@ -4,6 +4,9 @@ source ~/.zsh_alias
 # Start ssh toolchain
 eval $(keychain --eval --quiet id_rsa ~/.ssh/id_rsa)
 
+# Load RVM as a function
+source ~/.rvm/scripts/rvm
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 

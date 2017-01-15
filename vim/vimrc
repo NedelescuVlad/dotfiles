@@ -20,6 +20,8 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-bundler'
 
+Plugin 'mattn/emmet-vim'
+
 Plugin 'kien/ctrlp.vim'
 
 Plugin 'vim-ruby/vim-ruby'
@@ -39,6 +41,7 @@ syntax on
 colorscheme blazer
 
 map <F3> :NERDTreeToggle<CR>
+map <F2> :CtrlPClearAllCaches<CR>
 set mouse=a
 set tabstop=2
 set shiftwidth=2
